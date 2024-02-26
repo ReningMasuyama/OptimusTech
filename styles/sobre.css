@@ -1,0 +1,25 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0;
+    gap: 24px;
+}
+
+.sobre__secao {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+}
+
+.sobre__titulo {
+    color: var(--cor-titulo);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.sobre__texto {
+    font-size: 1.25rem;
+    text-align: center;
+    width: 60%;
+    line-height: 1.875rem;
+}

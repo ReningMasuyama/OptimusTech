@@ -1,0 +1,39 @@
+.top-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 96px 0 64px 0;
+}
+
+.top-vagas__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-vagas__conteudo__secao {
+    color: var(--cor-vermelho);
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: var(--cor-box-span);
+    padding: 4px 12px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.top-vagas__conteudo__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    color: var(--cor-titulo);
+    margin-bottom: 20px;
+}
+
+.top-vagas__conteudo__texto {
+    font-size: 1.25rem;
+}
+
+.top-vagas__imagem {
+    width: 100%;
+}

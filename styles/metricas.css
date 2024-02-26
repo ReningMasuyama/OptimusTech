@@ -1,0 +1,27 @@
+.metricas {
+    display: flex;
+    margin-bottom: 96px;
+    gap: 32px;
+}
+
+.metricas__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.metricas__conteudo__numero {
+    color: var(--cor-vermelho);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    margin-bottom: 12px;
+}
+
+.metricas__conteudo__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-bottom: 8px;
+}

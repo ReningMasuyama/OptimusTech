@@ -1,0 +1,46 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 96px;
+}
+
+.vagas__conteudo {
+    width: 70%;
+}
+
+.vagas__conteudo__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.vagas__conteudo__box {
+    background-color: var(--cor-texto-botao);
+    border: 1px solid var(--cor-borda-box);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 24px;
+}
+
+.box__final {
+    margin-bottom: 0;
+}
+
+.vagas__conteudo__box__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.125rem;font-weight: 500;
+    line-height: 1.75rem;
+    margin-bottom: 32px;
+}
+
+.vagas__conteudo__box__informacoes {
+    display: flex;
+    gap: 24px;
+}
+
+.box__informacoes__texto {
+    font-weight: 500;
+}
