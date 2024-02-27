@@ -38,7 +38,6 @@
     border: 1px solid var(--cor-borda-email);
     border-radius: 8px;
     box-shadow: 0 1px 2px 0 var(--cor-sombra-email);
-    width: 80%;
     width: 100%;
 }
 
